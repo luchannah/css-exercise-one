@@ -1,36 +1,86 @@
-body
+body {
   font-size: 14px;
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
-  position: fixed;
+  position: fixed; /*Fixed position of yellow nav bar*/
   width: 100%;
+}
+
 
 
 section {
   margin: 0 auto;
-  width: 60%;
+  width: 60%; /* Width of the div elements */
 }
 
-h1 {
-  font-family sans-serif;
+h1 {             /* font style of yellow nav bar */
+  font-family: sans-serif;
   font-size: 2em;
 }
 
-.example, h3 {
+
+.example, h3 {        /* Center aligns all text and adds padding from the top */
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
-h3 {
+h3 {                   /* Font size for all div elements */
   font-size: 1.3em;
 }
 
-.element {
+.element {                    /* Changes the style of all div elements */
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+.element1 {                 /*New class I made to change the last 3 div elements*/
+  background-color: pink;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+
+  /* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+.nav {
+	display: block;
+}
+.body {
+	line-height: 1;
+}
+.ol, .ul {
+	list-style: none;
+}
+.blockquote, .q {
+	quotes: none;
+}
+.blockquote:before, .blockquote:after,
+.q:before, .q:after {
+	content: '';
+	content: none;
+}
+.table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+Change from cline
+Change from clone
